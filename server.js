@@ -26,6 +26,16 @@ app.get('/usuarios', (req, res) => {
             id: 2,
             nome: 'João',
             email: 'joao@email.com'
+        },
+        {
+            id: 3,
+            nome: 'Carlos',
+            email: 'carlos@email.com'
+        },
+        {
+            id: 4,
+            nome: 'Leandro',
+            email: 'leandro@email.com'
         }
     ]);
 });
